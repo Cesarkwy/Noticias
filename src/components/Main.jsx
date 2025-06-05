@@ -66,8 +66,6 @@ const Main = ({ textToRead, newsContent, children }) => {
       stopReading();
     } else if (command.includes("home") || command.includes("início")) {
       navigate("/");
-    } else if (command.includes("chat") || command.includes("assistente")) {
-      navigate("/chat");
     } else if (command.includes("voltar")) {
       navigate(-1);
     }
@@ -102,9 +100,6 @@ const Main = ({ textToRead, newsContent, children }) => {
           break;
         case "4":
           stopReading();
-          break;
-        case "5":
-          navigate("/");
           break;
         default:
           break;

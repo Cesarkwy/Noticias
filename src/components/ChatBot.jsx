@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { FaComments, FaMicrophone } from "react-icons/fa";
+import { IoMdSend } from "react-icons/io";
 import "./ChatBot.css";
 
 const ChatBot = ({ noticias = [], noticiaAberta = null }) => {
@@ -18,7 +19,9 @@ const ChatBot = ({ noticias = [], noticiaAberta = null }) => {
         const command = event.results[0][0].transcript;
         setInput(command);
         sendMessage(command);
+        setInput("");
       };
+
 
       recognitionRef.current.onend = () => setIsListening(false);
     }
@@ -54,8 +57,8 @@ const ChatBot = ({ noticias = [], noticiaAberta = null }) => {
         contexto = noticias.map(n => `${n.title}: ${n.description || n.subtitle || ""}`).join("\n\n");
       }
 
-      const prompt = `Você é um assistente de acessibilidade em português brasileiro. Responda APENAS com base no conteúdo da notícia abaixo. 
-      Se a pergunta não estiver relacionada ao conteúdo, diga educadamente que não pode responder.
+      const prompt = `Você é um assistente de acessibilidade em português. Responda apenas com base na notícia. 
+Se a pergunta não for sobre ela, informe educadamente que não pode responder.
 
 Conteúdo da notícia: ${contexto}
 
@@ -80,6 +83,7 @@ Pergunta do usuário: ${msgText}`;
       console.error("Erro ao conversar com o modelo:", error);
     }
   };
+
 
   const handleKeyPress = (e) => {
     if (e.key === "Enter") sendMessage();
@@ -122,6 +126,10 @@ Pergunta do usuário: ${msgText}`;
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={handleKeyPress}
             />
+            <button className="send-button" onClick={() => sendMessage()} title="Enviar">
+              <IoMdSend size={20} />
+            </button>
+
           </div>
 
           <div className="chatbot-quick-prompts">
