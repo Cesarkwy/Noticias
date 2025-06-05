@@ -1,0 +1,119 @@
+.acessibilidade {
+  position: fixed;
+  bottom: 25px;
+  right: 100px;
+  transform: none;
+  z-index: 9999;
+}
+
+.btn-acessibilidade {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 12px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.menu-acessibilidade {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.menu-acessibilidade button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #000000;
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.menu-acessibilidade button:hover {
+  background-color: #444;
+}
+
+/* Contraste alto */
+body.contraste {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+body.contraste a {
+  color: #00ffff !important;
+}
+
+body.contraste .news-item {
+  background-color: #111 !important;
+  color: #fff !important;
+  border: 1px solid #444;
+}
+
+/* Fonte com serifa e sem serifa */
+body.serifa {
+  font-family: "Times New Roman", serif;
+}
+
+body.sem-serifa {
+  font-family: Arial, sans-serif;
+}
+
+/* Noticias */
+
+body.contraste .noticia-container {
+  background-color: #111 !important;
+  color: #fff !important;
+}
+
+body.contraste .noticia-content {
+  color: #fff !important;
+}
+
+body.contraste h1,
+body.contraste h3 {
+  color: #fff !important;
+}
+
+/* Aumentar e diminuir fonte */
+body.aumentar {
+  font-size: 1.2em;
+}
+
+body.diminuir {
+  font-size: 0.9em;
+}
+
+/* Aumentar e diminuir fonte dos títulos da notícia */
+body.aumentar .noticia-container h1 {
+  font-size: 36px;
+}
+
+body.diminuir .noticia-container h1 {
+  font-size: 28px;
+}
+
+body.aumentar .noticia-container h3 {
+  font-size: 26px;
+}
+
+body.diminuir .noticia-container h3 {
+  font-size: 20px;
+}
+
+body.aumentar .noticia-content {
+  font-size: 22px;
+}
+
+body.diminuir .noticia-content {
+  font-size: 16px;
+}

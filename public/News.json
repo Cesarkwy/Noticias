@@ -1,0 +1,173 @@
+[
+    {
+      "id": 1,
+      "title": "Novo Avanço na Tecnologia",
+      "subtitle": "Inteligência artificial revoluciona a acessibilidade",
+      "autor": "Rodrigo Rosa",
+      "image_url": "https://inovareducacaodeexcelencia.com/image/catalog/AI_1.jpg",
+      "tag": "Tecnologia",
+      "content": "A inteligência artificial tem avançado rapidamente e agora oferece novas soluções para acessibilidade digital. Empresas estão investindo em tecnologias que auxiliam pessoas com deficiências visuais, auditivas e motoras a navegar na web com mais autonomia...",
+      "date": "2025-01-30"
+    },
+    {
+      "id": 2,
+      "title": "Carros Autônomos Ganham Popularidade",
+      "subtitle": "Novas regulamentações aceleram adoção da tecnologia",
+      "autor": "Mariana Souza",
+      "image_url": "https://media.investnews.com.br/uploads/2025/01/tesla.jpg",
+      "tag": "Automobilismo",
+      "content": "O avanço dos carros autônomos tem sido impulsionado por novas regulamentações e investimentos no setor. Empresas como Tesla e Waymo continuam aprimorando seus sistemas para garantir maior segurança e eficiência nas estradas...",
+      "date": "2025-01-28"
+    },
+    {
+      "id": 3,
+      "title": "Cientistas Criam Pele Artificial",
+      "subtitle": "Material promete avanços na medicina e na robótica",
+      "autor": "Carlos Mendes",
+      "image_url": "https://tm.ibxk.com.br/2011/10/materias/96516403225113517.jpg",
+      "tag": "Ciência",
+      "content": "Pesquisadores desenvolveram uma pele sintética que imita as propriedades da pele humana, podendo ser utilizada em próteses e robôs. A tecnologia permitirá maior sensibilidade tátil e adaptação aos movimentos naturais do corpo...",
+      "date": "2025-01-25"
+    },
+    {
+      "id": 4,
+      "title": "Novo Smartphone Promete Revolução",
+      "subtitle": "Tela dobrável e IA integrada são destaques do modelo",
+      "autor": "Fernanda Lima",
+      "image_url": "https://multiversonoticias.com.br/wp-content/uploads/2024/09/mate-xt.png",
+      "tag": "Tecnologia",
+      "content": "O novo modelo de smartphone da Samsung chega ao mercado com uma tela dobrável inovadora e um assistente de IA avançado. A empresa aposta na usabilidade e na conectividade aprimorada para atrair consumidores exigentes...",
+      "date": "2025-01-22"
+    },
+    {
+      "id": 5,
+      "title": "Vacina Contra Câncer Apresenta Avanços",
+      "subtitle": "Estudos mostram resultados promissores em testes clínicos",
+      "autor": "Juliana Freitas",
+      "image_url": "https://static.poder360.com.br/2023/03/vacinacao-em-Brasilia-848x477.jpeg",
+      "tag": "Saúde",
+      "content": "Cientistas anunciaram avanços significativos no desenvolvimento de uma vacina contra o câncer. Os testes clínicos indicam uma resposta positiva do sistema imunológico contra células cancerígenas, abrindo caminho para novos tratamentos...",
+      "date": "2025-01-20"
+    },
+    {
+      "id": 6,
+      "title": "Robôs Auxiliam em Cirurgias Complexas",
+      "subtitle": "Precisão e segurança são aprimoradas com nova tecnologia",
+      "autor": "Lucas Andrade",
+      "image_url": "https://lorena.r7.com/public/assets/img/postagens/post_49555.jpg",
+      "tag": "Saúde",
+      "content": "A adoção de robôs em procedimentos cirúrgicos tem crescido, garantindo maior precisão e reduzindo os riscos para os pacientes. Especialistas acreditam que essa tecnologia pode tornar as cirurgias mais acessíveis e menos invasivas...",
+      "date": "2025-01-18"
+    },
+    {
+      "id": 7,
+      "title": "Brasil Investe em Energia Solar",
+      "subtitle": "Expansão da energia renovável ganha força no país",
+      "autor": "Ricardo Matos",
+      "image_url": "https://solarprime.com.br/wp-content/uploads/2018/11/255012-energia-solar-no-verao-voce-sabe-como-ela-funciona-nessa-epoca-do-ano.jpg",
+      "tag": "Meio Ambiente",
+      "content": "O governo brasileiro anunciou novos investimentos em energia solar, visando aumentar a participação das fontes renováveis na matriz energética do país. A expectativa é que o custo da energia solar continue diminuindo nos próximos anos...",
+      "date": "2025-01-15"
+    },
+    {
+      "id": 8,
+      "title": "Jogos de Realidade Virtual Evoluem",
+      "subtitle": "Novas tecnologias trazem mais imersão aos jogadores",
+      "autor": "Bruno Ferreira",
+      "image_url": "https://s2-techtudo.glbimg.com/PUClhHBAVH_gAXClbZt8GEu5QQY=/0x0:695x391/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2017/g/Z/QWDz03T9Cj2qREsLjYNg/oculus1.png",
+      "tag": "Tecnologia",
+      "content": "Os desenvolvedores de jogos de realidade virtual estão aprimorando a tecnologia para oferecer experiências mais realistas e envolventes. Sensores aprimorados e gráficos avançados são os principais destaques da nova geração...",
+      "date": "2025-01-12"
+    },
+    {
+      "id": 9,
+      "title": "Aumento do Trabalho Remoto",
+      "subtitle": "Empresas adotam modelo híbrido como tendência",
+      "autor": "Ana Clara Borges",
+      "image_url": "https://goedert.com.br/wp-content/uploads/2020/09/homeoffice-goedert-capa.jpg",
+      "tag": "Negócios",
+      "content": "Com a digitalização dos processos, muitas empresas estão aderindo ao modelo de trabalho híbrido, permitindo que funcionários tenham mais flexibilidade e equilíbrio entre vida profissional e pessoal...",
+      "date": "2025-01-10"
+    },
+    {
+      "id": 10,
+      "title": "Exploração Espacial Avança",
+      "subtitle": "Missões a Marte e além entram em nova fase",
+      "autor": "Gabriel Santos",
+      "image_url": "https://img.odcdn.com.br/cdn-cgi/image/width=1200,height=1200,fit=cover/wp-content/uploads/2023/06/Exploracao-espacial.jpg",
+      "tag": "Ciência",
+      "content": "Com investimentos bilionários, a exploração espacial avança para novas fronteiras. Empresas privadas e agências governamentais planejam missões tripuladas a Marte, visando estabelecer bases permanentes...",
+      "date": "2025-01-08"
+    },
+    {
+      "id": 11,
+      "title": "Inteligência Artificial na Educação",
+      "subtitle": "Plataformas de ensino utilizam IA para personalização",
+      "autor": "Carolina Nunes",
+      "image_url": "https://proximonivel.embratel.com.br/wp-content/uploads/2023/03/ia-na-educacao-753x425.jpg",
+      "tag": "Educação",
+      "content": "Ferramentas educacionais estão utilizando IA para adaptar conteúdos conforme o perfil de cada aluno, melhorando a aprendizagem e tornando o ensino mais acessível...",
+      "date": "2025-01-05"
+    },
+    {
+      "id": 12,
+      "title": "Realidade Aumentada nos Museus",
+      "subtitle": "Experiência imersiva atrai visitantes",
+      "autor": "Fábio Moreira",
+      "image_url": "https://anacecilia.digital/wp-content/uploads/2022/08/masp-chardin-realidade-aumentada.jpg",
+      "tag": "Cultura",
+      "content": "Museus ao redor do mundo estão adotando realidade aumentada para enriquecer a experiência dos visitantes, permitindo interações digitais com exposições...",
+      "date": "2025-01-03"
+    },
+    {
+      "id": 13,
+      "title": "Novo Carregador Universal",
+      "subtitle": "Padrão único promete reduzir lixo eletrônico",
+      "autor": "Vanessa Silva",
+      "image_url": "https://images.tcdn.com.br/img/img_prod/758376/carregador_fast_sem_fio_inducao_qi_compativel_c_ios_11_e_12_1179_1_6ea5d7159fe4ea45f0b241078688db30.jpg",
+      "tag": "Tecnologia",
+      "content": "Com a adoção de um novo padrão universal para carregadores de dispositivos móveis, especialistas preveem uma redução significativa no lixo eletrônico global...",
+      "date": "2025-01-02"
+    },
+    {
+      "id": 14,
+      "title": "Aquecimento Global em Alerta",
+      "subtitle": "Relatório aponta desafios para os próximos anos",
+      "autor": "Renato Oliveira",
+      "image_url": "https://s2-umsoplaneta.glbimg.com/Na1OkO0oh37Tsll5VXjC1TzD0S0=/0x0:4667x2225/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_7d5b9b5029304d27b7ef8a7f28b4d70f/internal_photos/bs/2024/V/1/dIdYlBRneG5uZAw1MOHg/photo-collage-climate-scenarios-global-climate-reports-noaa-image-landscapes-no-noaa-logo.jpg",
+      "tag": "Meio Ambiente",
+      "content": "Novos estudos alertam sobre o aumento da temperatura global e os impactos ambientais severos, reforçando a necessidade de políticas sustentáveis...",
+      "date": "2025-01-01"
+    },
+    {
+      "id": 15,
+      "title": "Tecnologia 6G em Desenvolvimento",
+      "subtitle": "Conectividade ultrarrápida se aproxima",
+      "autor": "Eduardo Martins",
+      "image_url": "https://s2-techtudo.glbimg.com/UwlKWmPWBADLt_BAd49T-_wXv2Q=/0x0:4977x3318/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2022/3/E/URRO6wSd2nmFwTOzYIOQ/gettyimages-1239429118.jpg",
+      "tag": "Tecnologia",
+      "content": "Empresas de telecomunicações estão investindo na tecnologia 6G, prometendo velocidades muito superiores ao 5G e novas possibilidades para a internet das coisas...",
+      "date": "2024-12-30"
+    },
+    {
+        "id": 16,
+        "title": "Brasil Conquista Título Mundial",
+        "subtitle": "Seleção vence final emocionante nos pênaltis",
+        "autor": "Felipe Rocha",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtoWSntr3QCLjvLTP1Ycwg67WBIeybRsclMw&s",
+        "tag": "Esportes",
+        "content": "Em uma partida eletrizante, a seleção brasileira conquistou o título mundial após uma disputa acirrada que terminou nos pênaltis. O goleiro brilhou defendendo duas cobranças, garantindo a vitória histórica...",
+        "date": "2025-01-28"
+      },
+      {
+        "id": 17,
+        "title": "Olimpíadas 2028: Preparativos Aceleram",
+        "subtitle": "Comitê divulga novas modalidades e infraestrutura",
+        "autor": "Roberta Nascimento",
+        "image_url": "https://cdn.folhape.com.br/img/pc/1100/1/dn_arquivo/2024/08/image-10_1.jpg",
+        "tag": "Esportes",
+        "content": "Os preparativos para as Olimpíadas de 2028 estão em ritmo acelerado. O comitê organizador anunciou melhorias na infraestrutura e a inclusão de novas modalidades esportivas, atraindo ainda mais atletas e espectadores...",
+        "date": "2025-01-25"
+      }
+  ]
+  

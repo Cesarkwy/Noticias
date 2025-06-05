@@ -1,0 +1,167 @@
+/* Estilos gerais */
+.home-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-title {
+  font-size: 24px;
+  color: #a50000;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #a50000;
+  display: inline-block;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+
+/* Carrossel */
+.carousel {
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 30px;
+}
+
+.carousel-item {
+  position: relative;
+  text-align: center;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.carousel-item h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Categorias */
+.category-section {
+  margin-bottom: 30px;
+}
+
+.category-section h2 {
+  font-size: 24px;
+  color: #a50000;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #a50000;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Lista de notícias */
+.news-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #fff;
+  padding: 20px;  /* Aumentar o padding */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Ajustar a margem para espaçar melhor */
+  width: 100%;  /* Garantir que ocupe a largura disponível */
+  max-width: 900px;  /* Definir largura máxima */
+  margin: 0 auto 20px auto;
+}
+
+/* Categorias */
+.category-section {
+  margin-bottom: 30px;
+}
+
+.category-section h2 {
+  font-size: 24px;
+  color: #a50000;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #a50000;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Estilização do Card de Notícias */
+.news-card {
+  display: flex;
+  align-items: center; /* Alinha os elementos horizontalmente */
+  gap: 15px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Imagem à esquerda */
+.news-card img {
+  width: 400px; /* Tamanho fixo da imagem */
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Conteúdo ao lado da imagem */
+.news-content {
+  flex: 1; /* Ocupa o espaço restante */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Título */
+.news-content h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+}
+
+/* Subtítulo */
+.news-content p {
+  font-size: 16px;
+  color: #555;
+  margin: 0;
+}
+
+.news-item-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.news-item:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Contraste nos cards da Home */
+body.contraste .news-card,
+body.contraste .news-item {
+  background-color: #111 !important;
+  color: #fff !important;
+  border: 1px solid #444;
+}
+
+body.contraste .news-content h3 {
+  color: #fff !important;
+}
+
+body.contraste .news-content p {
+  color: #ccc !important;
+}
+
+body.contraste .news-item:hover,
+body.contraste .news-card:hover {
+  background-color: #222 !important;
+}
