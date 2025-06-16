@@ -33,7 +33,9 @@ const Noticia = ({ setCurrentNewsContent, setNoticiaAberta }) => {
       <h1>{noticia.title}</h1>
       <h3>{noticia.subtitle}</h3>
       <img src={noticia.image_url} alt={noticia.title} />
-      <p className="noticia-content">{noticia.content}</p>
+      <p className="noticia-content">{noticia.content.split('\n').map((linha, index) => (
+    <p key={index}>{linha}</p>
+  ))}</p>
     </div>
   );
 };

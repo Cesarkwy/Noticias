@@ -57,12 +57,13 @@ const ChatBot = ({ noticias = [], noticiaAberta = null }) => {
         contexto = noticias.map(n => `${n.title}: ${n.description || n.subtitle || ""}`).join("\n\n");
       }
 
-      const prompt = `Você é um assistente de acessibilidade em português. Responda apenas com base na notícia. 
-Se a pergunta não for sobre ela, informe educadamente que não pode responder.
+      const prompt = `Você é um assistente de acessibilidade em português. Responda sempre com base na notícia, explique resumidamente e de forma acessível. Caso não esteja relacionado, diga que não pode responder.
 
 Conteúdo da notícia: ${contexto}
 
 Pergunta do usuário: ${msgText}`;
+
+      console.log("Prompt completo:", prompt); // PARA VER O PROMPO NO CONSOLE
 
       const response = await fetch("http://localhost:11434/api/generate", {
         method: "POST",
