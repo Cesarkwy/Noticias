@@ -77,10 +77,9 @@ const ChatBot = ({ noticias = [], noticiaAberta = null }) => {
       case 'explicacao':
         return `
 ### INSTRUÇÃO ESPECÍFICA PARA EXPLICAÇÃO:
-- Responda diretamente em linguagem simples, sem mostrar passos de raciocínio
-- Defina termos técnicos usando palavras do dia a dia
-- Use comparações com situações familiares
-- Explique de forma clara e direta, sem numeração ou estrutura visível
+- Defina termos técnicos em linguagem simples
+- Use comparações com situações do dia a dia
+- Divida conceitos complexos em partes menores
 - Termine perguntando se ficou claro`;
         
       case 'contexto':
@@ -177,14 +176,6 @@ Você é um assistente especializado em tornar notícias acessíveis para todos 
 - Evite jargões técnicos ou termos complexos
 - Prefira frases curtas e bem estruturadas
 - Seja empático e inclusivo
-- NUNCA mostre seu processo de pensamento ou raciocínio
-- Vá direto ao ponto sem explicar como chegou à resposta
-
-### 3. FORMATO DE RESPOSTA
-- Responda de forma natural e conversacional
-- Não use estruturas como "1. O que está acontecendo", "2. Como funciona"
-- Evite dividir a resposta em seções numeradas visíveis
-- Integre as informações em um texto fluido e coerente
 
 ### 3. ACESSIBILIDADE
 - Formate respostas para facilitar leitura por sintetizadores de voz
@@ -254,10 +245,12 @@ Baseando-me nas informações da notícia, vou responder de forma clara e acess�
   };
 
   const quickPrompts = [
-    "Resuma esta notícia",
-    "Explique os detalhes mais importantes",
-    "Por que essa notícia é relevante?",
-    "Explique com palavras mais simples"
+    "📋 Resuma esta notícia em 3 pontos principais",
+    "🔍 Explique os detalhes mais importantes",
+    "💡 Por que essa notícia é relevante?",
+    "👥 Como isso afeta as pessoas?",
+    "📚 Explique com palavras mais simples",
+    "❓ Tire minhas dúvidas sobre o tema"
   ];
 
   return (
